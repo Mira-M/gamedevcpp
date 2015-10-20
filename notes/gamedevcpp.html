@@ -7196,7 +7196,7 @@ $src$
 <pre>&lt;div class=&quot;tc-static-alert&quot;&gt;&lt;div class=&quot;tc-static-alert-inner&quot;&gt;This page is part of a static HTML representation of the ~TiddlyWiki at http://tiddlywiki.com/&lt;/div&gt;&lt;/div&gt;
 </pre>
 </div>
-<div list="[[About - gamedevcpp]]" title="$:/StoryList">
+<div list="[[Coding Conventions]] [[About - gamedevcpp]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div title="$:/SVGExampleRadius">
@@ -8377,6 +8377,19 @@ Note that  some keyboard layouts treat the backtick as a [[dead key|http://en.wi
 
 See http://tiddlywiki.com/plugins/tiddlywiki/codemirror/
 </pre>
+</div>
+<div created="20151020232948766" modified="20151020233126594" tags="" title="Coding Conventions">
+<pre>Global variables will be prefixed with g_.
+Examples: g_name, g_state
+
+Class/Structure member variables will be prefixed with m_.
+Examples: m_name, m_state
+
+Parameter variables will be prefixed with p_.
+Examples: p_name, p_state
+
+Local function variables have no prefix
+Examples: name, state</pre>
 </div>
 <div caption="colour" created="20150221154058000" modified="20150221154522000" tags="Macros [[Core Macros]]" title="colour Macro" type="text/vnd.tiddlywiki">
 <pre>The &lt;&lt;.def colour&gt;&gt; (or &lt;&lt;.def color&gt;&gt;) [[macro|Macros]] returns the [[CSS|Cascading Style Sheets]] value of one the colours in the current [[palette|ColourPalettes]].
