@@ -1,28 +1,24 @@
-#include <iostream>
-using namespace std;
-
-template< class T >
-class Adder
+class IntAdder
 {
     public:
     //Constructor
-    FloatAdder()
+    IntAdder()
     {
         m_sum = 0;
     }
     // add function
-    void Add( float p_number)
+    void Add( int p_number)
     {
         m_sum += p_number;
     }
 
     //get sum function
-    float Sum()
+    int Sum()
     {
         return m_sum;
     }
 
     private:
         //sum variable
-        float m_sum;
+        int m_sum;
 };
